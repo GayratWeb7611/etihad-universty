@@ -1,0 +1,63 @@
+section#contact-showcase{
+    text-align: center;
+    background-image: url(https://signsoft.co.uk/wp-content/uploads/2020/08/shutterstock_1119128888.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 0 100px;
+    .con-show-in{
+        background-color: #fffa;
+        padding: 20px 10px;
+        display: inline-block;
+        p{
+            margin: 10px 0;
+        }
+    }
+}
+section#con-half{
+    text-align: center;     
+    // background-color: #780;
+    .half{
+        position: relative;
+        height: 350px;
+        // background-color: #690;
+        margin: 0 auto;
+        .con-half-in{
+            // margin: 50px;
+            width: 80%;
+                border: 1px solid rgba(0,0,0,.125);
+                position: absolute;
+                top: -70px;
+                left: 10%;
+                background-color: #fff;
+            // margin: 20px auto;   
+
+            .con-half-top{
+                text-align: center;
+                background-color: #f0f0f0;
+                padding: 20px;
+                border: 1px solid rgba(0,0,0,.125);
+                i{
+                    font-size: 4rem;
+                }
+                p{
+                    // font-size: 34px;
+                    margin: 10px 0;
+                }
+            }
+            button{
+                all: unset;
+                font-size: 1.2rem;
+                padding: 10px 20px;
+                display: block;
+                // background-color: #657;
+                margin: 70px 20px;
+                border-radius: 10px;
+
+                &:focus{
+                    box-shadow: 0 0 0 4px #06f;
+                }
+            }
+        }
+    }
+}

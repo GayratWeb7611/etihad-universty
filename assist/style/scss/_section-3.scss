@@ -1,0 +1,45 @@
+section#s-three{
+    text-align: center;
+    h1{
+        margin-bottom: 2rem;
+    }
+    table{
+
+            border-collapse: collapse;
+            text-align: left;
+            margin-bottom: 3rem;
+
+        thead{
+            background-color: #343a40;
+            th{
+                border: 1px solid #443a40;
+                padding: 15px 10px;
+                color: $oq;
+                font-size: 20px;
+            }
+        }
+        tbody{
+            .table-color{
+                background-color: #d1d1d1;
+                td{
+                padding: 15px 10px;
+                    font-size: 1.2rem;
+                border: 1px solid #aaa;
+
+                }
+            }
+            tr{
+                 td{
+                padding: 15px 10px;
+                    font-size: 1.2rem;
+                border: 1px solid #aaa;
+
+                }
+            }
+        }
+        
+    }
+    @media (max-width: 950px) {
+    display: none;            
+        }
+}

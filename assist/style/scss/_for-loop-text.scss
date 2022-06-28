@@ -1,0 +1,42 @@
+@for $for-p from 0 through 60{
+
+
+    .red-t-#{$for-p}{
+        font-size: #{$for-p}px;
+        color: $qizil;
+        font-weight: 600;
+    }
+    .white-t-#{$for-p}{
+        font-size: #{$for-p}px;
+        color: $oq;
+        font-weight: 600;
+
+    }
+    .black-t-#{$for-p}{
+        font-size: #{$for-p}px;
+        color: black;
+        font-weight: 600;
+
+    }
+
+
+}
+@for $takror from 0 through 60{
+
+    .pad-tb-#{$takror}{
+        padding: #{$takror}px 0 ;
+    }
+    
+    .pad-lr-#{$takror}{
+        padding: 0 #{$takror}px  ;
+    }
+    .mar-tb-#{$takror}{
+        margin: #{$takror}px 0 ;
+    }
+    
+    .mar-lr-#{$takror}{
+        margin: 0 #{$takror}px  ;
+    }
+
+
+}

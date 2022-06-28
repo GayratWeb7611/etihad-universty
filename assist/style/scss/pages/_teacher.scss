@@ -1,0 +1,30 @@
+section#teach-showcase{
+    padding: 13rem 0;
+    background-image: url(https://d2v9ipibika81v.cloudfront.net/uploads/sites/78/2016/08/081216en_01-1140x684.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top: 5rem;
+     @media (max-width: 850px) {
+    padding: 10rem 0;
+            
+        }
+    p{
+        font-size: 6rem;
+        @media (max-width: 1230px) {
+            font-size: 4rem;
+        }
+        @media (max-width: 850px) {
+            font-size: 3rem;
+        }
+        @media (max-width: 650px) {
+            font-size: 2.2rem;
+        }
+    }
+    .teach-show-bg{
+        background-color: #fff8;
+        display: inline-block;
+        padding: 1.3rem;
+    }
+}

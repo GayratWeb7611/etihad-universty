@@ -1,0 +1,41 @@
+header#main-header{
+    background-color: rgba(219, 222, 224, 0.623);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 8577855;
+    .top-logo{
+        display: inline-block;
+        // background-color: #8769;
+    }
+    nav{
+        @media (max-width: 950px) {
+    display: none;            
+        }
+    }
+    ul{
+        li{
+            display: inline-block;
+            color: $qora;
+            opacity: .7;
+            font-size: .95rem;
+            text-transform:uppercase;
+            font-weight: 600;
+            margin: 0 2px;
+            // background-color: #859;
+            padding: 10px 18px;
+            border-radius: 5px;
+            &:hover 
+             {
+                background-color: red;
+            }
+           
+        }
+          .active{
+                background-color: red;
+
+             }
+    }
+
+}
